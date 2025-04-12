@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEKNOFA Su Arıtma Sistemleri</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #0077c2; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #005f99; display: flex; justify-content: center; }
+    nav a { color: white; padding: 15px 20px; text-decoration: none; }
+    nav a:hover { background-color: #004d80; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .hero { background: url('banner.jpg') no-repeat center center / cover; color: white; padding: 100px 20px; text-align: center; }
+    .products, .faq, .contact { background-color: #f4f4f4; margin-top: 20px; border-radius: 10px; }
+    footer { background-color: #0077c2; color: white; text-align: center; padding: 15px; margin-top: 40px; }
+    .button { background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; }
+    .product-card { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .flex { display: flex; flex-direction: column; gap: 20px; }
+    @media(min-width: 768px) { .flex { flex-direction: row; } }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="TEKNOFA Logo" height="80" /><br />
+    <h1>TEKNOFA Su Arıtma Sistemleri</h1>
+    <p>Sağlıklı Su, Sağlıklı Yaşam</p>
+  </header>  <nav>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#urunler">Ürünler</a>
+    <a href="#sss">SSS</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>  <section class="hero">
+    <h2>Ev ve işyerleri için profesyonel su arıtma çözümleri</h2>
+    <a href="#iletisim" class="button">Bize Ulaşın</a>
+  </section>  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>TEKNOFA, kaliteli ve güvenilir su arıtma sistemleri ile sağlıklı yaşamın kapılarını aralıyor. Uzman ekibimizle Türkiye genelinde hizmet sunuyoruz.</p>
+  </section>  <section id="urunler" class="products">
+    <h2>Ürünlerimiz</h2>
+    <div class="flex">
+      <div class="product-card">
+        <h3>Ev Tipi Su Arıtma Cihazı</h3>
+        <p>5 aşamalı filtreleme sistemiyle en saf suyu evinize getirin.</p>
+      </div>
+      <div class="product-card">
+        <h3>Endüstriyel Sistemler</h3>
+        <p>Fabrikalar ve işletmeler için yüksek kapasiteli çözümler.</p>
+      </div>
+    </div>
+  </section>  <section id="sss" class="faq">
+    <h2>Sıkça Sorulan Sorular</h2>
+    <p><strong>S: Filtre değişim süresi nedir?</strong><br />C: Ortalama 6 ayda bir filtre değişimi önerilir.</p>
+    <p><strong>S: Kurulum hizmeti veriyor musunuz?</strong><br />C: Evet, Türkiye'nin her yerine kurulum hizmetimiz vardır.</p>
+  </section>  <section id="iletisim" class="contact">
+    <h2>İletişim</h2>
+    <p>Telefon: <strong>0540 420 0540</strong></p>
+    <p>E-posta: <a href="mailto:info@teknofa.com">info@teknofa.com</a></p>
+    <p><a class="button" href="https://wa.me/905404200540">WhatsApp'tan Yazın</a></p>
+  </section>  <footer>
+    <p>&copy; 2025 TEKNOFA Su Arıtma Sistemleri</p>
+  </footer>
+</body>
+</html>
